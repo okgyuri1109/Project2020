@@ -1,5 +1,5 @@
 /*
-File Name: index.html v.0.4.0
+File Name: index.html v.0.5.0
 Update: 2020.04.22
 Author: 배규리
 */
@@ -39,18 +39,35 @@ ul li a {
 .article-bg1 {
     height: 300px;
     padding: 5px;
-    background-color: rgb(164,114,175);
+    background-color: rgb(167, 208, 236);
     text-align: center;
     
 }
 
 .article-bg2 {
-    height: 550px;
+    height: 650px;
     padding: 5px;
-    background-color: rgb(24,124,175);
+    background-color: rgb(241, 187, 10);
     text-align: center;
     
 }
+
+.article-bg3 {
+    height: 450px;
+    padding: 5px;
+    background-color: rgb(150, 180, 40);
+    text-align: center;
+    
+}
+
+.article-bg4 {
+    height: 450px;
+    padding: 5px;
+    background-color: rgb(201, 87, 195);
+    text-align: center;
+    
+}
+
 /*box model test*/
 .box1 {
     display: inline-block;
