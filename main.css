@@ -1,5 +1,5 @@
 /*
-File Name: index.html v.0.5.0
+File Name: index.html v.0.6.0
 Update: 2020.04.22
 Author: 배규리
 */
@@ -39,7 +39,7 @@ ul li a {
 .article-bg1 {
     height: 300px;
     padding: 5px;
-    background-color: rgb(167, 208, 236);
+    background-color: rgb(230, 117, 109);
     text-align: center;
     
 }
@@ -47,7 +47,7 @@ ul li a {
 .article-bg2 {
     height: 650px;
     padding: 5px;
-    background-color: rgb(241, 187, 10);
+    background-color: rgb(245, 163, 57);
     text-align: center;
     
 }
@@ -55,7 +55,7 @@ ul li a {
 .article-bg3 {
     height: 450px;
     padding: 5px;
-    background-color: rgb(150, 180, 40);
+    background-color: rgb(255, 232, 131);
     text-align: center;
     
 }
@@ -63,7 +63,15 @@ ul li a {
 .article-bg4 {
     height: 450px;
     padding: 5px;
-    background-color: rgb(201, 87, 195);
+    background-color: rgb(217, 240, 88);
+    text-align: center;
+    
+}
+
+.article-bg5 {
+    height: 300px;
+    padding: 5px;
+    background-color: rgb(175, 239, 250);
     text-align: center;
     
 }
@@ -128,4 +136,50 @@ ul li a {
 
 .b-radius4 {
     border-radius: 100%;
+}
+
+.grid-container {
+    background-color: rgb(207, 42, 42);
+    display: grid;
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.item {
+    grid-column: 1 / span 3;
+    grid-row: 1;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, alpha);
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+}
+
+/*테이블 연습*/
+thead,
+tfoot {
+    background-color:rgb(56, 109, 206);
+    color: rgb(0, 0, 0);
+}
+
+tbody{
+    background-color: rgb(204, 200, 203);
+}
+
+table{
+    border-collapse: collapse;
+    border: 2px solid rgb(0, 0, 0);
+}
+td,
+th {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 5px 10px;
+}
+td {
+    text-align: center;
+}
+caption{
+    caption-side: bottom;
 }
