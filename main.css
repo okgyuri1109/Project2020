@@ -38,8 +38,8 @@ Author: 배규리
     font-size: 35px;
     font-weight: bold;
     padding-top: 25px;
-    background: rgba(60, 180, 60, 0.7);
-    color: #fff;
+    background: rgba(253, 155, 7, 0.7);
+    color: rgb(0, 0, 0);
     border: rgb(60, 280, 80);
     border-style: solid;
 }
@@ -48,7 +48,7 @@ Author: 배규리
     display: inline-block;
     padding: 25px 40px;
     margin:  50px 100px;
-    border: 3px solid rgb(60, 180, 80);
+    border: 3px solid rgb(247, 215, 39);
     color: #000000;
     text-align: center; 
     background-color: rgba(255, 255, 255, 0.5);
