@@ -13,6 +13,59 @@ Author: 배규리
     
 }
 
+/*header - full screen background*/
+.full-bg{
+    background: url(./images/animal-1238238_640.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: table;
+    background-color: initial;
+}
+
+/*ghost button*/
+
+.container{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.header-title{
+    display: inline-block;
+    width: 50%;
+    height: 140px;
+    font-size: 35px;
+    font-weight: bold;
+    padding-top: 25px;
+    background: rgba(60, 180, 60, 0.7);
+    color: #fff;
+    border: rgb(60, 280, 80);
+    border-style: solid;
+}
+.ghost-button {
+    align-items: center;
+    display: inline-block;
+    padding: 25px 40px;
+    margin:  50px 100px;
+    border: 3px solid rgb(60, 180, 80);
+    color: #000000;
+    text-align: center; 
+    background-color: rgba(255, 255, 255, 0.5);
+    border-style: solid;
+    text-decoration: none;
+}
+.ghost-button:hover{
+    background-color: rgba(56, 79, 212, 0.5);
+    color: rgb(255, 255, 255);
+}
+
+.sub-header-title{
+    font-size: 25px;
+    color: rgb(94, 51, 2);
+    padding-top: 25px;
+}
+
 /* main manu */
 ul {
     width: 100%;
