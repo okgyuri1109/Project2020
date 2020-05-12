@@ -184,3 +184,28 @@ caption{
     padding: 20px;
     text-align: center;
 }
+
+  /* 메뉴 드롭박스 항목*/
+  li ul li a {
+    color: rgb(255, 255, 255);
+    display:block;
+    font-size: 25px;
+    font-weight: bold;
+    margin:10px 0px;
+    padding:0px 15px;
+    text-decoration: none;
+}
+li ul {
+    background: rgb(0, 0, 0);
+    display:none;
+    height: auto;
+    padding-top:15px;
+    margin:0px;
+    border:0px;
+    position:absolute;
+    width:250px;
+    z-index:200;
+}
+li:hover ul{
+    display:block;
+}
