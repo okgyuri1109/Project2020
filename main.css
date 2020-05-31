@@ -23,8 +23,15 @@ Author: 배규리
     background-color: initial;
 }
 
-/*ghost button*/
+/* 메뉴바 상단 고정 */
+.header {  
+    position: fixed;
+    top: 0px;
+    left: 0;
+    right: 0;
+  }
 
+/*ghost button*/
 .container{
     display: table-cell;
     text-align: center;
@@ -38,17 +45,17 @@ Author: 배규리
     font-size: 35px;
     font-weight: bold;
     padding-top: 25px;
-    background: rgba(253, 155, 7, 0.7);
-    color: rgb(0, 0, 0);
-    border: rgb(60, 280, 80);
+    background: rgba(255, 239, 150, 0.8);
+    color: rgb(58, 31, 1);
+    border: rgb(255, 153, 6);
     border-style: solid;
 }
 .ghost-button {
     align-items: center;
-    display: inline-block;s
+    display: inline-block;
     padding: 25px 40px;
     margin:  50px 100px;
-    border: 3px solid rgb(247, 215, 39);
+    border: 3px solid rgb(233, 153, 6);
     color: #000000;
     text-align: center; 
     background-color: rgba(255, 255, 255, 0.5);
@@ -56,13 +63,13 @@ Author: 배규리
     text-decoration: none;
 }
 .ghost-button:hover{
-    background-color: rgba(56, 79, 212, 0.5);
+    background-color: rgba(255, 153, 6, 0.5);
     color: rgb(255, 255, 255);
 }
 
 .sub-header-title{
     font-size: 25px;
-    color: rgb(94, 51, 2);
+    color: rgb(0, 0, 0);
     padding-top: 25px;
 }
 
@@ -219,27 +226,69 @@ caption{
 }
 
 /*grid*/
-.grid-container {
-    background-color: rgb(207, 42, 42);
+/* 그리드 연습 */
+
+.sec-title {
+    height: 70px;
+    padding: 15px;
+    text-align: center;
+    background-color: rgb(129, 89, 238);
+} 
+
+.sec-left {
+    background-color: rgb(255, 232, 103);
+    color: rgb(0, 0, 0);
+    float: left;
+    height: 400px;
+    line-height: 35px;
+    text-align: center;
+    width: 50%;
+}
+
+.sec-right {
+    background-color: rgb(21, 12, 102);
+    color: white;
+    float: right;
+    height: 400px;
+    line-height: 35px;
+    text-align: center;
+    width: 50%;
+}
+
+.grid-container{
+    background-color: rgb(191, 123, 247);
     display: grid;
     grid-gap: 10px;
     padding: 10px;
 }
-
-.item {
-    grid-column: 1 / span 3;
-    grid-row: 1;
-}
-
-.grid-item {
-    background-color: rgba(255, 255, 255, alpha);
+.grid-item{
+    background-color: rgb(255, 255, 255);
     font-size: 30px;
     padding: 20px;
     text-align: center;
 }
 
-  /* 메뉴 드롭박스 항목*/
-  li ul li a {
+.item1{
+    grid-column: 1 / span 3;
+    grid-row: 1;
+
+}
+
+.item2{
+    grid-column: 1/3;
+}
+
+.item3 {
+    grid-column: 3/4;
+    grid-row: 2/4;
+}
+
+.item10 {
+    grid-column: 2/4;
+}
+
+/* 메뉴 드롭박스 항목*/
+li ul li a {
     color: rgb(255, 255, 255);
     display:block;
     font-size: 25px;
@@ -262,3 +311,24 @@ li ul {
 li:hover ul{
     display:block;
 }
+/* footer */
+footer { 
+    display: block;
+    text-align: center;
+    background-color: rgb(77, 47, 2);
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    
+  }
+
+/* article 폭 */
+  .width-50 {
+      width: 50%;
+      margin-left: 25%;
+  }
+
+/* 글씨 */
+  .white{
+      color: white;
+  }

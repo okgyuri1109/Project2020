@@ -1,0 +1,33 @@
+<!--
+    * File name : file name
+    * Version : version
+    * Update : 2020.05.26
+-->
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>dom06</title>
+    <script>
+        window.onload = function () {
+        var output = '';
+        for (var i=0 ; i<256 ; i++) {
+            output += '<div></div>';
+        }
+        document.body.innerHTML = output;
+
+        // 문서 객체 선택
+        var image = document.getElementById('image');
+        image.src = "";
+        image.width = 300;
+        image.height = 200;
+        };
+    </script>
+</head>
+<body>
+    <img id="image">
+</body>
+</html>
